@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+i{
+    cursor: pointer;
+}
+
+/* Header Design */
+.header{
+    position: sticky;
+    top: 0px;
+}
+
+.logo{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.header-link{
+    height: 10vh;
+    color: white;
+    background-color: black;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-link li{
+    padding-right: 1.5rem;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.header-link li a{
+    text-decoration: none;
+    color:  white;
+}
+
+/* Main Design */
+.list-section{
+    width: 75vw;
+    padding-bottom: 2rem;
+    border-radius: 15px;
+    margin: 1rem auto;
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+.list-section h1{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 0rem 1rem 2rem;
+}
+
+
+.song{
+    background-color: white;
+    padding: 0.5rem 1rem;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.song div{
+    display: flex;
+    align-items: center;
+}
+
+.song img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30px;
+}
+
+.song div span{
+    padding-right: 0.5rem;
+}
+
+.play-section{
+    color: white;
+    background-color: black;
+    width: 100%;
+    position: sticky;
+    bottom: 0px;
+}
+
+.play-section img{
+    height: 2rem;
+    width: 4rem;
+}
+
+.seekbar{
+    display: block;
+    width: 80vw;
+    margin: 0px auto;
+    cursor: pointer;
+    box-sizing: content-box;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.icon{
+    width: 80vw;
+    margin: 0rem auto;
+    position: relative;
+   padding-bottom: 1rem;
+}
+
+.icon img{
+    position: absolute;
+    box-sizing: content-box;
+    padding-bottom: 2rem;
+}
+
+.song-name{
+    position: absolute;
+    left: 6rem;
+    bottom: 2rem;
+}
+
+.sub-icon{
+    display: flex;
+    justify-content: center;  
+}
+
+.volume{
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    padding: 0.3rem 0rem;
+    cursor: pointer;
+}
+
+.volume-text{
+    position: absolute;
+    right: 10rem;
+    font-size: large;
+    font-weight: 600;
+    color: cyan;
+}
+
+#gif{
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
